@@ -13,4 +13,5 @@ The DeeveloX company site is a demonstration project created to showcase the dev
 - Visual Studio Code
 
 ## Website Preview
-![DeeveloX Website Preview](./[images/image_name.jpg](https://github.com/anshu0714/DeeveloX-Demonstration-Website/blob/main/Screenshot%202024-08-03%20235238.png))
+![DeeveloX Company Site]([./Screenshot.png])
+
