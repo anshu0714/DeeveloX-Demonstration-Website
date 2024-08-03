@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c6cacb;
+  padding: 20px;
+}
+
+.footer-left, .footer-center, .footer-right {
+  flex: 1;
+  text-align: center;
+}
+
+.company-logo {
+  width: 150px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.get-in-touch-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.get-in-touch-button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-left, .footer-right {
+    justify-content: center;
+  }
+
+  .company-logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

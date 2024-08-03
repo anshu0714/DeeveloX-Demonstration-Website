@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f0693875.css",
+    "main.js": "/static/js/main.d2686a82.js",
+    "static/js/453.371812b8.chunk.js": "/static/js/453.371812b8.chunk.js",
+    "static/media/arham.png": "/static/media/arham.56f4ec7bf83b89f81d6c.png",
+    "static/media/home_page_background.jpg": "/static/media/home_page_background.2d8cc460a9df1573939c.jpg",
+    "static/media/about_background.jpg": "/static/media/about_background.1720e9c4b6092b8ba547.jpg",
+    "static/media/our_values.png": "/static/media/our_values.543271a75b358922e070.png",
+    "static/media/adCreation.jpg": "/static/media/adCreation.0bde6f6069218a3482fe.jpg",
+    "static/media/lakshay.jpg": "/static/media/lakshay.e73866072790d23d3377.jpg",
+    "static/media/softwareSolution.jpg": "/static/media/softwareSolution.9f500f2699b936793df9.jpg",
+    "static/media/software.jpg": "/static/media/software.e0d5a1c11e312539865a.jpg",
+    "static/media/contentProduction.jpg": "/static/media/contentProduction.1df836e635abf7a2a64f.jpg",
+    "static/media/branding.jpg": "/static/media/branding.2eb4db80aced24340fc8.jpg",
+    "static/media/advertising.jpg": "/static/media/advertising.3ec89123804d690ffc23.jpg",
+    "static/media/contentCreation.jpg": "/static/media/contentCreation.12cfbcde5dc5b33c5e7a.jpg",
+    "static/media/review.jpg": "/static/media/review.8836cbb488bf79b8c0ed.jpg",
+    "static/media/strategic.jpg": "/static/media/strategic.dc6cb05e1d4e394f561d.jpg",
+    "static/media/metaAds.jpg": "/static/media/metaAds.e4b4e1dd734c3ea4c422.jpg",
+    "static/media/marketing.jpg": "/static/media/marketing.26cb96206555f0c3ed61.jpg",
+    "static/media/strategy.jpg": "/static/media/strategy.7f3da637027c6f516c1b.jpg",
+    "static/media/harsh.png": "/static/media/harsh.5d57a3323f69704c5e77.png",
+    "static/media/our_story.png": "/static/media/our_story.30447c5d6c2d9095f754.png",
+    "static/media/our_mission.jpg": "/static/media/our_mission.09200b1b515fe1a49ad7.jpg",
+    "static/media/consultation.jpg": "/static/media/consultation.4156b05064a995ebbed5.jpg",
+    "static/media/execution.jpg": "/static/media/execution.7c2b1e75f3d559290950.jpg",
+    "static/media/creative.jpg": "/static/media/creative.a6e92c93a479d5a9327d.jpg",
+    "static/media/company_logo.png": "/static/media/company_logo.dbf17c181e88faa1ebad.png",
+    "static/media/rishabh.jpg": "/static/media/rishabh.ca00162c7043c3cf610f.jpg",
+    "static/media/anuj.jpg": "/static/media/anuj.7b2ca7a5b7e226dd0608.jpg",
+    "index.html": "/index.html",
+    "main.f0693875.css.map": "/static/css/main.f0693875.css.map",
+    "main.d2686a82.js.map": "/static/js/main.d2686a82.js.map",
+    "453.371812b8.chunk.js.map": "/static/js/453.371812b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0693875.css",
+    "static/js/main.d2686a82.js"
+  ]
+}

@@ -1,0 +1,276 @@
+.services-page {
+  padding: 2rem;
+  padding-top: 70px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+.services-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-section {
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 1s ease-in-out;
+  flex: 1 0 500px; 
+}
+
+.service-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.service-section:hover .service-image {
+  transform: scale(1.05);
+}
+
+.service-content {
+  text-align: center;
+}
+
+.service-section h2 {
+  font-size: 2.5rem;
+  color: #f0a500;
+  margin-bottom: 1rem;
+}
+
+.service-section p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.service-section ul {
+  list-style: none;
+  padding: 0;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.service-section ul li {
+  font-size: 1.1rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.service-section ul li:before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  color: #f0a500;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.testimonial {
+  position: relative;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 10px;
+  background: #f0f0f0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.testimonial-content {
+  margin-bottom: 1rem;
+}
+
+.testimonial p {
+  font-size: 1.4rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.author-info p {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.author-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-dot.active,
+.pagination-dot:hover {
+  background-color: #f0a500;
+}
+
+.happy-clients {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.happy-clients h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.happy-clients p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.client-logo {
+  max-width: 150px;
+  margin: 1rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.client-logo:hover {
+  filter: grayscale(0%);
+}
+
+.learn-more-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f0a500;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-link:hover {
+  background-color: #e09100;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-section {
+    flex: 1 0 100%; 
+    margin: 1rem 0;
+  }
+
+  .service-image {
+    height: 300px; 
+  }
+
+  .service-section h2 {
+    font-size: 2rem; 
+  }
+
+  .service-section p,
+  .service-section ul li {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .service-section {
+    padding: 1rem; 
+  }
+
+  .service-image {
+    height: 200px; 
+  }
+
+  .service-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .service-section p,
+  .service-section ul li {
+    font-size: 0.9rem;
+  }
+}
